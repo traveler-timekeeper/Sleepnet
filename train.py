@@ -250,9 +250,9 @@ def train(
         #     model.save_checkpoint(name="model")
         #
         # # Early stopping
-        # if update_epoch > 0 and ((epoch+1) - update_epoch) > config["no_improve_epochs"]:
-        #     logger.info("*** Early-stopping ***")
-        #     break
+        if update_epoch > 0 and ((epoch+1) - update_epoch) > config["no_improve_epochs"]:
+            logger.info("*** Early-stopping ***")
+            break
 
 
 if __name__ == "__main__":
