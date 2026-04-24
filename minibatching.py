@@ -1,3 +1,5 @@
+#为睡眠分期训练提供了三种不同复杂度的批数据生成器，适配从简单全连接、CNN到RNN/LSTM的不同模型需求。
+
 import math
 import numpy as np
 
