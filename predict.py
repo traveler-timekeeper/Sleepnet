@@ -34,9 +34,13 @@ def compute_performance(cm):
         - Per-class f1-score
     """
 
-    tp = np.diagonal(cm).astype(np.float)
-    tpfp = np.sum(cm, axis=0).astype(np.float) # sum of each col
-    tpfn = np.sum(cm, axis=1).astype(np.float) # sum of each row
+    #tp = np.diagonal(cm).astype(np.float)
+
+    tp = np.diagonal(cm).astype(float)
+
+
+    tpfp = np.sum(cm, axis=0).astype(float) # sum of each col
+    tpfn = np.sum(cm, axis=1).astype(float) # sum of each row
     acc = np.sum(tp) / np.sum(cm)
     precision = tp / tpfp
     recall = tp / tpfn
@@ -49,19 +53,30 @@ def compute_performance(cm):
     return total, n_each_class, acc, mf1, precision, recall, f1
 
 
+# def predict(
+#     config_file,
+#     model_dir,
+#     output_dir,
+#     log_file,
+#     use_best=True,
+# ):
+
 def predict(
     config_file,
     model_dir,
     output_dir,
     log_file,
     use_best=True,
+    fold_idx=None,      # 新增
+
+
 ):
     spec = importlib.util.spec_from_file_location("*", config_file)
     config = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(config)
     config = config.predict
 
-    # Create output directory for the specified fold_idx
+    # Create output directory for the specified fid
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
@@ -82,18 +97,54 @@ def predict(
     # Add dummy class weights
     config["class_weights"] = np.ones(config["n_classes"], dtype=np.float32)
 
+    # trues = []
+    # preds = []
+    # # for fid in range(config["n_folds"]):
+
+    # #     logger.info("------ Fold {}/{} ------".format(fid+1, config["n_folds"]))
+    # #     test_sids = fold_pids[fid]
+
+
+
+    # # if fid is not None:
+    # #     fold_indices = [fid]
+    # # else:
+    # #     fold_indices = range(config["n_folds"])
+    # # for fid in fold_indices:
+    # #     test_sids = fold_pids[fid]
+    # #     logger.info("------ Fold {}/{} ------".format(fid+1, config["n_folds"]))
+
+    
+    
+    
+    # if fold_idx is not None:
+    #     fold_indices = [fold_idx]
+    # else:
+    #     fold_indices = range(config["n_folds"])
+
+    # for fid in fold_indices:
+    #     test_sids = fold_pids[fid]
+    #     logger.info("------ Fold {}/{} ------".format(fid+1, config["n_folds"]))
     trues = []
     preds = []
-    for fold_idx in range(config["n_folds"]):
 
-        logger.info("------ Fold {}/{} ------".format(fold_idx+1, config["n_folds"]))
-        test_sids = fold_pids[fold_idx]
+    if fold_idx is not None:        # 注意：判断的是参数 fold_idx，不是 fid
+        fold_indices = [fold_idx]
+    else:
+        fold_indices = range(config["n_folds"])
+
+    for fid in fold_indices:
+        test_sids = fold_pids[fid]
+        logger.info("------ Fold {}/{} ------".format(fid+1, config["n_folds"]))
+
+
+
 
         logger.info("Test SIDs: ({}) {}".format(len(test_sids), test_sids))
         device = torch.device("cuda:{}".format(args.gpu) if torch.cuda.is_available() else "cpu")
         model = Model(
             config=config,
-            output_dir=os.path.join(model_dir, str(fold_idx)),
+            output_dir=os.path.join(model_dir, str(fid)),
             use_rnn=True,
             testing=True,
             use_best=use_best,
@@ -102,7 +153,7 @@ def predict(
 
         # model = TinySleepNet(
         #     config=config,
-        #     output_dir=os.path.join(model_dir, str(fold_idx)),
+        #     output_dir=os.path.join(model_dir, str(fid)),
         #     use_rnn=True,
         #     testing=True,
         #     use_best=use_best,
@@ -227,7 +278,21 @@ if __name__ == "__main__":
     parser.add_argument("--no-use-best", dest="use_best", action="store_false")
     parser.add_argument("--gpu", type=int, required=True)
     parser.set_defaults(use_best=False)
+
+    parser.add_argument("--fold_idx", type=int, default=None)
+
+
+
     args = parser.parse_args()
+
+    # predict(
+    #     config_file=args.config_file,
+    #     model_dir=args.model_dir,
+    #     output_dir=args.output_dir,
+    #     log_file=args.log_file,
+    #     use_best=args.use_best,
+    # )
+
 
     predict(
         config_file=args.config_file,
@@ -235,4 +300,5 @@ if __name__ == "__main__":
         output_dir=args.output_dir,
         log_file=args.log_file,
         use_best=args.use_best,
+        fold_idx=args.fold_idx,
     )

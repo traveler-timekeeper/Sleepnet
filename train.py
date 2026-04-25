@@ -139,7 +139,7 @@ def train(
     best_acc = -1
     best_mf1 = -1
     update_epoch = -1
-    config["n_epochs"] = args.n_epochs
+    #config["n_epochs"] = args.n_epochs
     for epoch in range(model.get_current_epoch(), config["n_epochs"]):
         # Create minibatches for training
         shuffle_idx = np.random.permutation(np.arange(len(train_x)))  # shuffle every epoch is good for generalization
@@ -286,7 +286,7 @@ if __name__ == "__main__":
     parser.add_argument("--log_file", type=str, default="./output/output.log")
     parser.add_argument("--random_seed", type=int, default=42)
     parser.add_argument("--gpu", type=int, default=0)               # 必须
-    parser.add_argument("--n_epochs", type=int, default=None)       # 必须
+    #parser.add_argument("--n_epochs", type=int, default=None)       # 必须
     parser.set_defaults(restart=False)
     args = parser.parse_args()
 

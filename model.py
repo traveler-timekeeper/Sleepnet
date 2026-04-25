@@ -37,7 +37,7 @@ class Model:
         self.CE_loss = nn.CrossEntropyLoss(reduce=False)
 
         self.train_writer = SummaryWriter(os.path.join(self.log_dir, "train"))
-        self.train_writer.add_graph(self.tsn, input_to_model=(torch.rand(size=(self.config['batch_size']*self.config['seq_length'], 1, 3000)).to(device), (torch.zeros(size=(1, self.config['batch_size'], 128)).to(device), torch.zeros(size=(1, self.config['batch_size'], 128)).to(device))))
+        #self.train_writer.add_graph(self.tsn, input_to_model=(torch.rand(size=(self.config['batch_size']*self.config['seq_length'], 1, 3000)).to(device), (torch.zeros(size=(1, self.config['batch_size'], 128)).to(device), torch.zeros(size=(1, self.config['batch_size'], 128)).to(device))))
         self.global_epoch = 0
         self.global_step = 0
 
@@ -70,10 +70,21 @@ class Model:
             x = torch.from_numpy(x).view(self.config['batch_size'] * self.config['seq_length'], 1, 3000)  # shape(batch_size* seq_length, in_channels, input_length)
             y = torch.from_numpy(y)
             w = torch.from_numpy(w)
-            if re:  # Initialize state of RNN
-                state = (torch.zeros(size=(1, self.config['batch_size'], self.config['n_rnn_units'])),
-                         torch.zeros(size=(1, self.config['batch_size'], self.config['n_rnn_units'])))
+
+
+            if re:
+                state = (torch.zeros(size=(2, self.config['batch_size'], self.config['n_rnn_units'])),
+                        torch.zeros(size=(2, self.config['batch_size'], self.config['n_rnn_units'])))
                 state = (state[0].to(self.device), state[1].to(self.device))
+
+
+            # if re:  # Initialize state of RNN
+            #     state = (torch.zeros(size=(1, self.config['batch_size'], self.config['n_rnn_units'])),
+            #              torch.zeros(size=(1, self.config['batch_size'], self.config['n_rnn_units'])))
+            #     state = (state[0].to(self.device), state[1].to(self.device))
+
+
+
             self.optimizer_all.zero_grad()
             x = x.to(self.device)
             y = y.to(self.device).long()  # CrossEntropyLoss() 需要 long 类型的标签
@@ -152,10 +163,16 @@ class Model:
                 y = torch.from_numpy(y)
                 w = torch.from_numpy(w)
 
+
                 if re:
-                    state = (torch.zeros(size=(1, self.config['batch_size'], self.config['n_rnn_units'])),
-                             torch.zeros(size=(1, self.config['batch_size'], self.config['n_rnn_units'])))
+                    state = (torch.zeros(size=(2, self.config['batch_size'], self.config['n_rnn_units'])),
+                            torch.zeros(size=(2, self.config['batch_size'], self.config['n_rnn_units'])))
                     state = (state[0].to(self.device), state[1].to(self.device))
+
+                # if re:
+                #     state = (torch.zeros(size=(1, self.config['batch_size'], self.config['n_rnn_units'])),
+                #              torch.zeros(size=(1, self.config['batch_size'], self.config['n_rnn_units'])))
+                #     state = (state[0].to(self.device), state[1].to(self.device))
 
                 # Carry the states from the previous batches through time  # 在测试时,将上一批样本的lstm状态带入下一批样本
 
