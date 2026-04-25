@@ -24,3 +24,7 @@ logs/
 # 系统文件
 .DS_Store
 Thumbs.db
+output/
+*.pth
+*.ckpt
+__pycache__/
