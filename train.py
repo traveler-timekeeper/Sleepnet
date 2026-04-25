@@ -255,6 +255,27 @@ def train(
             break
 
 
+# if __name__ == "__main__":
+#     parser = argparse.ArgumentParser()
+#     parser.add_argument("--config_file", type=str, required=True)
+#     parser.add_argument("--fold_idx", type=int, required=True)
+#     parser.add_argument("--output_dir", type=str, default="./output/train")
+#     parser.add_argument("--restart", dest="restart", action="store_true")
+#     parser.add_argument("--no-restart", dest="restart", action="store_false")
+#     parser.add_argument("--log_file", type=str, default="./output/output.log")
+#     parser.add_argument("--random_seed", type=int, default=42)
+#     parser.set_defaults(restart=False)
+#     args = parser.parse_args()
+
+#     train(
+#         config_file=args.config_file,
+#         fold_idx=args.fold_idx,
+#         output_dir=args.output_dir,
+#         log_file=args.log_file,
+#         restart=args.restart,
+#         random_seed=args.random_seed,
+#     )
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--config_file", type=str, required=True)
@@ -264,10 +285,13 @@ if __name__ == "__main__":
     parser.add_argument("--no-restart", dest="restart", action="store_false")
     parser.add_argument("--log_file", type=str, default="./output/output.log")
     parser.add_argument("--random_seed", type=int, default=42)
+    parser.add_argument("--gpu", type=int, default=0)               # 必须
+    parser.add_argument("--n_epochs", type=int, default=None)       # 必须
     parser.set_defaults(restart=False)
     args = parser.parse_args()
 
     train(
+        args,
         config_file=args.config_file,
         fold_idx=args.fold_idx,
         output_dir=args.output_dir,
