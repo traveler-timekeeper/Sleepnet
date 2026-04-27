@@ -1,0 +1,14 @@
+isruc-1_1_1.npz
+isruc-1_72_72.npz
+isruc-3_1_1.npz
+isruc-1_88_88.npz
+isruc-1_21_21.npz
+isruc-3_6_6.npz
+isruc-1_25_25.npz
+isruc-1_35_35.npz
+isruc-1_38_38.npz
+isruc-1_41_41.npz
+isruc-1_95_95.npz
+isruc-1_12_12.npz
+isruc-1_22_22.npz
+isruc-1_83_83.npz
