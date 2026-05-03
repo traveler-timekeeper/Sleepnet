@@ -70,7 +70,7 @@ class TinySleepNet(nn.Module):
 
 
         # 改双向 LSTM，输出维度翻倍
-        self.rnn = nn.LSTM(input_size=2048, hidden_size=self.config['n_rnn_units'],num_layers=self.config.get('n_rnn_layers', 1),batch_first=True, bidirectional=True)
+        self.rnn = nn.GRU(input_size=2048, hidden_size=self.config['n_rnn_units'],num_layers=self.config.get('n_rnn_layers', 1),batch_first=True, bidirectional=True)
         self.rnn_dropout = nn.Dropout(p=0.5)  # todo 是否需要这个dropout?
         
         # # -------------------------

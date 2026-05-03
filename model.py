@@ -78,10 +78,16 @@ class Model:
             w = torch.from_numpy(w)
 
 
+            # if re:
+            #     state = (torch.zeros(size=(2, self.config['batch_size'], self.config['n_rnn_units'])),
+            #             torch.zeros(size=(2, self.config['batch_size'], self.config['n_rnn_units'])))
+            #     state = (state[0].to(self.device), state[1].to(self.device))
+
+
             if re:
-                state = (torch.zeros(size=(2, self.config['batch_size'], self.config['n_rnn_units'])),
-                        torch.zeros(size=(2, self.config['batch_size'], self.config['n_rnn_units'])))
-                state = (state[0].to(self.device), state[1].to(self.device))
+                # GRU 隐藏状态维度通常与 LSTM 相同（层数×方向数，batch，hidden_size
+                state = torch.zeros(size=(2, self.config['batch_size'], self.config['n_rnn_units']))
+                state = state.to(self.device)
 
 
             # if re:  # Initialize state of RNN
@@ -97,7 +103,9 @@ class Model:
             #y = y.to(self.device)
             w = w.to(self.device)
             y_pred, state = self.tsn.forward(x, state)
-            state = (state[0].detach(), state[1].detach())
+            #state = (state[0].detach(), state[1].detach())
+            state = state.detach()
+
 
             ###数据类型不匹配
             loss = self.CE_loss(y_pred, y.long())  # 或者 y.to(torch.long)
