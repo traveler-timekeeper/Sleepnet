@@ -5,14 +5,11 @@ params = {
     "adam_beta_1": 0.9,
     "adam_beta_2": 0.999,
     "adam_epsilon": 1e-8,
-    #"clip_grad_value": 5.0,
     "clip_grad_value": 5.0,
-    #"dropout_rnn": 0.6, 
     "evaluate_span": 50,
     "checkpoint_span": 50,
 
     # Early-stopping
-    #"no_improve_epochs": 50,
     "no_improve_epochs": 50,
 
     # Model
@@ -25,10 +22,10 @@ params = {
     "l2_weight_decay": 1e-3,
 
     # Dataset
-    "dataset": "sleepedfx",
-    "data_dir": "./data/sleepedf/sleep-cassette/eeg_fpz_cz",
+    "dataset": "isruc",
+    "data_dir": "/root/autodl-tmp/isruc_npz",
     "n_folds": 10,
-    "n_subjects": 78,
+    "n_subjects": 100,       # ISRUC SG1 共有 100 名受试者
 
     # Data Augmentation
     "augment_seq": True,
@@ -41,18 +38,6 @@ train.update({
     "seq_length": 20,
     "batch_size": 15,
 })
-
-
-# #-----------------注意力-----------------
-# train = params.copy()
-# train.update({
-#     "seq_length": 20,          # 可尝试改为 25 或 30
-#     "batch_size": 10,          # 从 15 降下来，稳定梯度
-#     "num_heads": 2,            # 从头数 4 降为 2
-#     "learning_rate": 5e-5,     # 降低学习率
-# })
-# #-----------------注意力-----------------
-
 
 predict = params.copy()
 predict.update({

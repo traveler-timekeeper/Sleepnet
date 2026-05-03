@@ -15,7 +15,13 @@ def get_subject_files(dataset, files, sid):
         reg_exp = f"S[C|T][4|7]{str(sid).zfill(2)}[a-zA-Z0-9]+\.npz$"
         # reg_exp = "[a-zA-Z0-9]*{}[1-9]E0\.npz$".format(str(sid).zfill(2))
     elif "isruc" in dataset:
-        reg_exp = f"subject{sid+1}.npz"
+        # 不使用正则，直接比较文件名
+        target = f"{sid}.npz"
+        matched = [f for f in files if os.path.basename(f) == target]
+        return matched
+    # elif "isruc" in dataset:
+    #     #reg_exp = f"subject{sid+1}.npz"
+    #     reg_exp = rf"{sid}\.npz$"
     else:
         raise Exception("Invalid datasets.")
 

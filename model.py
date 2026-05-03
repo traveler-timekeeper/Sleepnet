@@ -41,9 +41,15 @@ class Model:
         self.global_epoch = 0
         self.global_step = 0
 
-        if testing and use_best:  # load form best checkpoint
-            best_ckpt_path = os.path.join(self.best_ckpt_path, "best_model.ckpt")
-            self.tsn.load_state_dict(torch.load(best_ckpt_path))
+        # if testing and use_best:  # load form best checkpoint
+        #     #best_ckpt_path = os.path.join(self.best_ckpt_path, "best_model.ckpt")
+        #     self.tsn.load_state_dict(torch.load(best_ckpt_path, map_location='cpu'))
+        #     self.tsn.load_state_dict(torch.load(best_ckpt_path))
+        #     logger.info(f'load best model from {best_ckpt_path}')
+
+        if testing and use_best:
+            best_ckpt_path = os.path.join(self.best_ckpt_path, "best_model.ckpt")  # 恢复路径构造
+            self.tsn.load_state_dict(torch.load(best_ckpt_path, map_location='cpu'))  # 明确 CPU 加载
             logger.info(f'load best model from {best_ckpt_path}')
 
 

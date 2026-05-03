@@ -73,12 +73,12 @@ class TinySleepNet(nn.Module):
         self.rnn = nn.LSTM(input_size=2048, hidden_size=self.config['n_rnn_units'],num_layers=self.config.get('n_rnn_layers', 1),batch_first=True, bidirectional=True)
         self.rnn_dropout = nn.Dropout(p=0.5)  # todo 是否需要这个dropout?
         
-        # -------------------------
-        #引入注意力
-        attn_embed_dim = self.config['n_rnn_units'] * 2   # 双向 LSTM 输出维度
-        num_heads = self.config.get('num_heads', 4)        # 头数，默认 4（可被 256 整除）
-        self.attn = nn.MultiheadAttention(embed_dim=attn_embed_dim, num_heads=num_heads,dropout=0.6,batch_first=True)
-        # -------------------------
+        # # -------------------------
+        # #引入注意力
+        # attn_embed_dim = self.config['n_rnn_units'] * 2   # 双向 LSTM 输出维度
+        # num_heads = self.config.get('num_heads', 4)        # 头数，默认 4（可被 256 整除）
+        # self.attn = nn.MultiheadAttention(embed_dim=attn_embed_dim, num_heads=num_heads,dropout=0.6,batch_first=True)
+        # # -------------------------
 
         self.fc = nn.Linear(self.config['n_rnn_units'] * 2, 5)   # 注意乘2
 
@@ -97,11 +97,11 @@ class TinySleepNet(nn.Module):
         # x = x.view(-1, self.config['n_rnn_units'])
         
 
-        #------------多头自注意力---------------
-        batch_size = x.size(0)                            # 实际的 batch 大小
-        x = x.reshape(batch_size, self.config['seq_length'], -1)   # 恢复为 (batch, seq_len, hidden*2)
-        x, _ = self.attn(x, x, x) 
-        #------------注意力---------------
+        # #------------多头自注意力---------------
+        # batch_size = x.size(0)                            # 实际的 batch 大小
+        # x = x.reshape(batch_size, self.config['seq_length'], -1)   # 恢复为 (batch, seq_len, hidden*2)
+        # x, _ = self.attn(x, x, x) 
+        # #------------注意力---------------
 
 
 
