@@ -55,11 +55,22 @@ class TinySleepNet(nn.Module):
             # nn.BatchNorm1d(num_features=128, eps=0.001, momentum=0.99),
             nn.BatchNorm1d(num_features=128, eps=0.001, momentum=0.01),
             nn.ReLU(inplace=True),
+
+            # 添加通道注意力
+            SELayer(128, reduction=16), 
+            
             nn.ConstantPad1d(self.padding_edf['max_pool2'], 0),  # max p 2
             nn.MaxPool1d(kernel_size=4, stride=4),
             nn.Flatten(),
             nn.Dropout(p=0.5),
         )
+
+
+
+
+        #插入SE层
+        self.se = SELayer(128, reduction=16)
+
         # self.rnn = nn.LSTM(input_size=2048, hidden_size=self.config['n_rnn_units'], num_layers=1, dropout=0.5)
         # self.rnn = nn.LSTM(input_size=2048, hidden_size=self.config['n_rnn_units'], num_layers=1)
        
@@ -89,6 +100,10 @@ class TinySleepNet(nn.Module):
 
     def forward(self, x, state):
         x = self.cnn(x)
+
+
+
+
         # input of LSTM must be shape(seq_len, batch, input_size)
         # x = x.view(self.config['seq_length'], self.config['batch_size'], -1)
         x = x.view(-1, self.config['seq_length'], 2048)  # batch first == True
@@ -117,6 +132,22 @@ class TinySleepNet(nn.Module):
 
         return x, state
 
+#通道注意力
+class SELayer(nn.Module):
+    def __init__(self, channel, reduction=16):
+        super(SELayer, self).__init__()
+        self.avg_pool = nn.AdaptiveAvgPool1d(1)
+        self.fc = nn.Sequential(
+            nn.Linear(channel, channel // reduction),
+            nn.ReLU(inplace=True),
+            nn.Linear(channel // reduction, channel),
+            nn.Sigmoid()
+        )
+    def forward(self, x):
+        b, c, _ = x.size()
+        y = self.avg_pool(x).view(b, c)
+        y = self.fc(y).view(b, c, 1)
+        return x * y.expand_as(x)
 
 
 if __name__ == '__main__':

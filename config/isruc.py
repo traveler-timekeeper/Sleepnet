@@ -31,6 +31,9 @@ params = {
     "augment_seq": True,
     "augment_signal_full": True,
     "weighted_cross_ent": True,
+
+    #添加一个开关，便于后期做消融实验
+    "use_se": True,
 }
 
 train = params.copy()
