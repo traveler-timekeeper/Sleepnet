@@ -178,10 +178,14 @@ class Model:
                 w = torch.from_numpy(w)
 
 
+                # if re:
+                #     state = (torch.zeros(size=(2, self.config['batch_size'], self.config['n_rnn_units'])),
+                #             torch.zeros(size=(2, self.config['batch_size'], self.config['n_rnn_units'])))
+                #     state = (state[0].to(self.device), state[1].to(self.device))
                 if re:
-                    state = (torch.zeros(size=(2, self.config['batch_size'], self.config['n_rnn_units'])),
-                            torch.zeros(size=(2, self.config['batch_size'], self.config['n_rnn_units'])))
-                    state = (state[0].to(self.device), state[1].to(self.device))
+                    # GRU 只有一个隐藏状态，维度 (num_layers*num_directions, batch, hidden_size)
+                    state = torch.zeros(2, self.config['batch_size'], self.config['n_rnn_units'])
+                    state = state.to(self.device)
 
                 # if re:
                 #     state = (torch.zeros(size=(1, self.config['batch_size'], self.config['n_rnn_units'])),
@@ -199,7 +203,8 @@ class Model:
                 # summary(self.tsn, x, state)
                 # exit(0)
                 y_pred, state = self.tsn.forward(x, state)
-                state = (state[0].detach(), state[1].detach())
+                state = state.detach()
+                #state = (state[0].detach(), state[1].detach())
                 loss = self.CE_loss(y_pred, y)
                 # weight by sample
                 loss = torch.mul(loss, w)

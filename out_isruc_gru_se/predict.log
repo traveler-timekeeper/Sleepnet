@@ -1,0 +1,1147 @@
+2026-05-04 10:27:49 [INFO ] Load generated SIDs from isruc.txt
+2026-05-04 10:27:49 [INFO ] SIDs (100): [  1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18
+  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36
+  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54
+  55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72
+  73  74  75  76  77  78  79  80  81  82  83  84  85  86  87  88  89  90
+  91  92  93  94  95  96  97  98  99 100]
+2026-05-04 10:27:49 [INFO ] ------ Fold 1/10 ------
+2026-05-04 10:27:49 [INFO ] Test SIDs: (10) [ 1  2  3  4  5  6  7  8  9 10]
+2026-05-04 10:27:49 [INFO ] load best model from out_isruc_gru_se/train/0/best_ckpt/best_model.ckpt
+2026-05-04 10:27:49 [INFO ] Subject ID: 1
+2026-05-04 10:27:49 [INFO ] Load files /root/autodl-tmp/isruc_npz/1.npz ...
+2026-05-04 10:27:49 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:27:49 [INFO ] (880, 3000, 1, 1)
+2026-05-04 10:27:49 [INFO ] W: 264
+2026-05-04 10:27:49 [INFO ] N1: 73
+2026-05-04 10:27:49 [INFO ] N2: 194
+2026-05-04 10:27:49 [INFO ] N3: 231
+2026-05-04 10:27:49 [INFO ] REM: 118
+2026-05-04 10:27:54 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_1.npz
+2026-05-04 10:27:54 [INFO ] Subject ID: 2
+2026-05-04 10:27:54 [INFO ] Load files /root/autodl-tmp/isruc_npz/2.npz ...
+2026-05-04 10:27:54 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:27:54 [INFO ] (964, 3000, 1, 1)
+2026-05-04 10:27:54 [INFO ] W: 245
+2026-05-04 10:27:54 [INFO ] N1: 115
+2026-05-04 10:27:54 [INFO ] N2: 345
+2026-05-04 10:27:54 [INFO ] N3: 157
+2026-05-04 10:27:54 [INFO ] REM: 102
+2026-05-04 10:28:00 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_2.npz
+2026-05-04 10:28:00 [INFO ] Subject ID: 3
+2026-05-04 10:28:00 [INFO ] Load files /root/autodl-tmp/isruc_npz/3.npz ...
+2026-05-04 10:28:00 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:28:00 [INFO ] (943, 3000, 1, 1)
+2026-05-04 10:28:00 [INFO ] W: 132
+2026-05-04 10:28:00 [INFO ] N1: 165
+2026-05-04 10:28:00 [INFO ] N2: 246
+2026-05-04 10:28:00 [INFO ] N3: 173
+2026-05-04 10:28:00 [INFO ] REM: 227
+2026-05-04 10:28:05 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_3.npz
+2026-05-04 10:28:05 [INFO ] Subject ID: 4
+2026-05-04 10:28:05 [INFO ] Load files /root/autodl-tmp/isruc_npz/4.npz ...
+2026-05-04 10:28:05 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:28:05 [INFO ] (963, 3000, 1, 1)
+2026-05-04 10:28:05 [INFO ] W: 28
+2026-05-04 10:28:05 [INFO ] N1: 65
+2026-05-04 10:28:05 [INFO ] N2: 426
+2026-05-04 10:28:05 [INFO ] N3: 214
+2026-05-04 10:28:05 [INFO ] REM: 230
+2026-05-04 10:28:11 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_4.npz
+2026-05-04 10:28:11 [INFO ] Subject ID: 5
+2026-05-04 10:28:11 [INFO ] Load files /root/autodl-tmp/isruc_npz/5.npz ...
+2026-05-04 10:28:11 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:28:11 [INFO ] (875, 3000, 1, 1)
+2026-05-04 10:28:11 [INFO ] W: 296
+2026-05-04 10:28:11 [INFO ] N1: 108
+2026-05-04 10:28:11 [INFO ] N2: 265
+2026-05-04 10:28:11 [INFO ] N3: 164
+2026-05-04 10:28:11 [INFO ] REM: 42
+2026-05-04 10:28:16 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_5.npz
+2026-05-04 10:28:16 [INFO ] Subject ID: 6
+2026-05-04 10:28:16 [INFO ] Load files /root/autodl-tmp/isruc_npz/6.npz ...
+2026-05-04 10:28:16 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:28:16 [INFO ] (897, 3000, 1, 1)
+2026-05-04 10:28:16 [INFO ] W: 722
+2026-05-04 10:28:16 [INFO ] N1: 16
+2026-05-04 10:28:16 [INFO ] N2: 60
+2026-05-04 10:28:16 [INFO ] N3: 99
+2026-05-04 10:28:21 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_6.npz
+2026-05-04 10:28:21 [INFO ] Subject ID: 7
+2026-05-04 10:28:21 [INFO ] Load files /root/autodl-tmp/isruc_npz/7.npz ...
+2026-05-04 10:28:21 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:28:21 [INFO ] (933, 3000, 1, 1)
+2026-05-04 10:28:21 [INFO ] W: 134
+2026-05-04 10:28:21 [INFO ] N1: 171
+2026-05-04 10:28:21 [INFO ] N2: 205
+2026-05-04 10:28:21 [INFO ] N3: 234
+2026-05-04 10:28:21 [INFO ] REM: 189
+2026-05-04 10:28:26 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_7.npz
+2026-05-04 10:28:26 [INFO ] Subject ID: 8
+2026-05-04 10:28:26 [INFO ] Load files /root/autodl-tmp/isruc_npz/8.npz ...
+2026-05-04 10:28:26 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:28:26 [INFO ] (904, 3000, 1, 1)
+2026-05-04 10:28:26 [INFO ] W: 221
+2026-05-04 10:28:26 [INFO ] N1: 126
+2026-05-04 10:28:26 [INFO ] N2: 281
+2026-05-04 10:28:26 [INFO ] N3: 214
+2026-05-04 10:28:26 [INFO ] REM: 62
+2026-05-04 10:28:32 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_8.npz
+2026-05-04 10:28:32 [INFO ] Subject ID: 9
+2026-05-04 10:28:32 [INFO ] Load files /root/autodl-tmp/isruc_npz/9.npz ...
+2026-05-04 10:28:32 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:28:32 [INFO ] (969, 3000, 1, 1)
+2026-05-04 10:28:32 [INFO ] W: 150
+2026-05-04 10:28:32 [INFO ] N1: 173
+2026-05-04 10:28:32 [INFO ] N2: 341
+2026-05-04 10:28:32 [INFO ] N3: 159
+2026-05-04 10:28:32 [INFO ] REM: 146
+2026-05-04 10:28:38 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_9.npz
+2026-05-04 10:28:38 [INFO ] Subject ID: 10
+2026-05-04 10:28:38 [INFO ] Load files /root/autodl-tmp/isruc_npz/10.npz ...
+2026-05-04 10:28:38 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:28:38 [INFO ] (842, 3000, 1, 1)
+2026-05-04 10:28:38 [INFO ] W: 320
+2026-05-04 10:28:38 [INFO ] N1: 90
+2026-05-04 10:28:38 [INFO ] N2: 308
+2026-05-04 10:28:38 [INFO ] N3: 96
+2026-05-04 10:28:38 [INFO ] REM: 28
+2026-05-04 10:28:43 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_10.npz
+2026-05-04 10:28:43 [INFO ] n=9170, acc=81.0, mf1=78.2
+2026-05-04 10:28:43 [INFO ] >> Confusion Matrix
+2026-05-04 10:28:43 [INFO ] [[2374   96   17    9   16]
+ [ 211  624  148   16  103]
+ [  42  227 2035  189  178]
+ [   4    0  240 1493    4]
+ [  34  127   78    3  902]]
+2026-05-04 10:28:43 [INFO ] ------------------------
+2026-05-04 10:28:43 [INFO ] 
+2026-05-04 10:28:43 [INFO ] ------ Fold 2/10 ------
+2026-05-04 10:28:43 [INFO ] Test SIDs: (10) [11 12 13 14 15 16 17 18 19 20]
+2026-05-04 10:28:43 [INFO ] load best model from out_isruc_gru_se/train/1/best_ckpt/best_model.ckpt
+2026-05-04 10:28:43 [INFO ] Subject ID: 11
+2026-05-04 10:28:43 [INFO ] Load files /root/autodl-tmp/isruc_npz/11.npz ...
+2026-05-04 10:28:43 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:28:43 [INFO ] (997, 3000, 1, 1)
+2026-05-04 10:28:43 [INFO ] W: 331
+2026-05-04 10:28:43 [INFO ] N1: 96
+2026-05-04 10:28:43 [INFO ] N2: 274
+2026-05-04 10:28:43 [INFO ] N3: 209
+2026-05-04 10:28:43 [INFO ] REM: 87
+2026-05-04 10:28:49 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_11.npz
+2026-05-04 10:28:49 [INFO ] Subject ID: 12
+2026-05-04 10:28:49 [INFO ] Load files /root/autodl-tmp/isruc_npz/12.npz ...
+2026-05-04 10:28:50 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:28:50 [INFO ] (850, 3000, 1, 1)
+2026-05-04 10:28:50 [INFO ] W: 167
+2026-05-04 10:28:50 [INFO ] N1: 79
+2026-05-04 10:28:50 [INFO ] N2: 149
+2026-05-04 10:28:50 [INFO ] N3: 334
+2026-05-04 10:28:50 [INFO ] REM: 121
+2026-05-04 10:28:55 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_12.npz
+2026-05-04 10:28:55 [INFO ] Subject ID: 13
+2026-05-04 10:28:55 [INFO ] Load files /root/autodl-tmp/isruc_npz/13.npz ...
+2026-05-04 10:28:55 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:28:55 [INFO ] (882, 3000, 1, 1)
+2026-05-04 10:28:55 [INFO ] W: 651
+2026-05-04 10:28:55 [INFO ] N1: 111
+2026-05-04 10:28:55 [INFO ] N2: 39
+2026-05-04 10:28:55 [INFO ] N3: 64
+2026-05-04 10:28:55 [INFO ] REM: 17
+2026-05-04 10:29:03 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_13.npz
+2026-05-04 10:29:03 [INFO ] Subject ID: 14
+2026-05-04 10:29:03 [INFO ] Load files /root/autodl-tmp/isruc_npz/14.npz ...
+2026-05-04 10:29:03 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:29:03 [INFO ] (906, 3000, 1, 1)
+2026-05-04 10:29:03 [INFO ] W: 460
+2026-05-04 10:29:03 [INFO ] N1: 112
+2026-05-04 10:29:03 [INFO ] N2: 181
+2026-05-04 10:29:03 [INFO ] N3: 104
+2026-05-04 10:29:03 [INFO ] REM: 49
+2026-05-04 10:29:09 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_14.npz
+2026-05-04 10:29:09 [INFO ] Subject ID: 15
+2026-05-04 10:29:09 [INFO ] Load files /root/autodl-tmp/isruc_npz/15.npz ...
+2026-05-04 10:29:09 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:29:09 [INFO ] (786, 3000, 1, 1)
+2026-05-04 10:29:09 [INFO ] W: 193
+2026-05-04 10:29:09 [INFO ] N1: 85
+2026-05-04 10:29:09 [INFO ] N2: 158
+2026-05-04 10:29:09 [INFO ] N3: 181
+2026-05-04 10:29:09 [INFO ] REM: 169
+2026-05-04 10:29:14 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_15.npz
+2026-05-04 10:29:14 [INFO ] Subject ID: 16
+2026-05-04 10:29:14 [INFO ] Load files /root/autodl-tmp/isruc_npz/16.npz ...
+2026-05-04 10:29:14 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:29:14 [INFO ] (883, 3000, 1, 1)
+2026-05-04 10:29:14 [INFO ] W: 157
+2026-05-04 10:29:14 [INFO ] N1: 154
+2026-05-04 10:29:14 [INFO ] N2: 329
+2026-05-04 10:29:14 [INFO ] N3: 120
+2026-05-04 10:29:14 [INFO ] REM: 123
+2026-05-04 10:29:19 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_16.npz
+2026-05-04 10:29:19 [INFO ] Subject ID: 17
+2026-05-04 10:29:19 [INFO ] Load files /root/autodl-tmp/isruc_npz/17.npz ...
+2026-05-04 10:29:19 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:29:19 [INFO ] (851, 3000, 1, 1)
+2026-05-04 10:29:19 [INFO ] W: 376
+2026-05-04 10:29:19 [INFO ] N1: 159
+2026-05-04 10:29:19 [INFO ] N2: 212
+2026-05-04 10:29:19 [INFO ] N3: 55
+2026-05-04 10:29:19 [INFO ] REM: 49
+2026-05-04 10:29:23 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_17.npz
+2026-05-04 10:29:23 [INFO ] Subject ID: 18
+2026-05-04 10:29:23 [INFO ] Load files /root/autodl-tmp/isruc_npz/18.npz ...
+2026-05-04 10:29:23 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:29:23 [INFO ] (999, 3000, 1, 1)
+2026-05-04 10:29:23 [INFO ] W: 136
+2026-05-04 10:29:23 [INFO ] N1: 108
+2026-05-04 10:29:23 [INFO ] N2: 438
+2026-05-04 10:29:23 [INFO ] N3: 154
+2026-05-04 10:29:23 [INFO ] REM: 163
+2026-05-04 10:29:28 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_18.npz
+2026-05-04 10:29:28 [INFO ] Subject ID: 19
+2026-05-04 10:29:28 [INFO ] Load files /root/autodl-tmp/isruc_npz/19.npz ...
+2026-05-04 10:29:28 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:29:28 [INFO ] (828, 3000, 1, 1)
+2026-05-04 10:29:28 [INFO ] W: 338
+2026-05-04 10:29:28 [INFO ] N1: 150
+2026-05-04 10:29:28 [INFO ] N2: 191
+2026-05-04 10:29:28 [INFO ] N3: 68
+2026-05-04 10:29:28 [INFO ] REM: 81
+2026-05-04 10:29:32 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_19.npz
+2026-05-04 10:29:32 [INFO ] Subject ID: 20
+2026-05-04 10:29:32 [INFO ] Load files /root/autodl-tmp/isruc_npz/20.npz ...
+2026-05-04 10:29:32 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:29:32 [INFO ] (950, 3000, 1, 1)
+2026-05-04 10:29:32 [INFO ] W: 271
+2026-05-04 10:29:32 [INFO ] N1: 98
+2026-05-04 10:29:32 [INFO ] N2: 152
+2026-05-04 10:29:32 [INFO ] N3: 309
+2026-05-04 10:29:32 [INFO ] REM: 120
+2026-05-04 10:29:37 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_20.npz
+2026-05-04 10:29:37 [INFO ] n=8932, acc=77.4, mf1=74.0
+2026-05-04 10:29:37 [INFO ] >> Confusion Matrix
+2026-05-04 10:29:37 [INFO ] [[2799  158  104    6   13]
+ [ 356  517  232    4   43]
+ [ 168  246 1543  125   41]
+ [   5    2  193 1398    0]
+ [  70  119  126    5  659]]
+2026-05-04 10:29:37 [INFO ] ------------------------
+2026-05-04 10:29:37 [INFO ] 
+2026-05-04 10:29:37 [INFO ] ------ Fold 3/10 ------
+2026-05-04 10:29:37 [INFO ] Test SIDs: (10) [21 22 23 24 25 26 27 28 29 30]
+2026-05-04 10:29:37 [INFO ] load best model from out_isruc_gru_se/train/2/best_ckpt/best_model.ckpt
+2026-05-04 10:29:37 [INFO ] Subject ID: 21
+2026-05-04 10:29:37 [INFO ] Load files /root/autodl-tmp/isruc_npz/21.npz ...
+2026-05-04 10:29:37 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:29:37 [INFO ] (1054, 3000, 1, 1)
+2026-05-04 10:29:37 [INFO ] W: 377
+2026-05-04 10:29:37 [INFO ] N1: 137
+2026-05-04 10:29:37 [INFO ] N2: 180
+2026-05-04 10:29:37 [INFO ] N3: 141
+2026-05-04 10:29:37 [INFO ] REM: 219
+2026-05-04 10:29:43 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_21.npz
+2026-05-04 10:29:43 [INFO ] Subject ID: 22
+2026-05-04 10:29:43 [INFO ] Load files /root/autodl-tmp/isruc_npz/22.npz ...
+2026-05-04 10:29:43 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:29:43 [INFO ] (849, 3000, 1, 1)
+2026-05-04 10:29:43 [INFO ] W: 306
+2026-05-04 10:29:43 [INFO ] N1: 67
+2026-05-04 10:29:43 [INFO ] N2: 301
+2026-05-04 10:29:43 [INFO ] N3: 107
+2026-05-04 10:29:43 [INFO ] REM: 68
+2026-05-04 10:29:47 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_22.npz
+2026-05-04 10:29:47 [INFO ] Subject ID: 23
+2026-05-04 10:29:47 [INFO ] Load files /root/autodl-tmp/isruc_npz/23.npz ...
+2026-05-04 10:29:47 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:29:47 [INFO ] (892, 3000, 1, 1)
+2026-05-04 10:29:47 [INFO ] W: 266
+2026-05-04 10:29:47 [INFO ] N1: 114
+2026-05-04 10:29:47 [INFO ] N2: 312
+2026-05-04 10:29:47 [INFO ] N3: 65
+2026-05-04 10:29:47 [INFO ] REM: 135
+2026-05-04 10:29:51 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_23.npz
+2026-05-04 10:29:51 [INFO ] Subject ID: 24
+2026-05-04 10:29:51 [INFO ] Load files /root/autodl-tmp/isruc_npz/24.npz ...
+2026-05-04 10:29:51 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:29:51 [INFO ] (830, 3000, 1, 1)
+2026-05-04 10:29:51 [INFO ] W: 200
+2026-05-04 10:29:51 [INFO ] N1: 85
+2026-05-04 10:29:51 [INFO ] N2: 244
+2026-05-04 10:29:51 [INFO ] N3: 134
+2026-05-04 10:29:51 [INFO ] REM: 167
+2026-05-04 10:29:55 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_24.npz
+2026-05-04 10:29:55 [INFO ] Subject ID: 25
+2026-05-04 10:29:55 [INFO ] Load files /root/autodl-tmp/isruc_npz/25.npz ...
+2026-05-04 10:29:55 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:29:55 [INFO ] (921, 3000, 1, 1)
+2026-05-04 10:29:55 [INFO ] W: 136
+2026-05-04 10:29:55 [INFO ] N1: 61
+2026-05-04 10:29:55 [INFO ] N2: 294
+2026-05-04 10:29:55 [INFO ] N3: 134
+2026-05-04 10:29:55 [INFO ] REM: 296
+2026-05-04 10:30:00 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_25.npz
+2026-05-04 10:30:00 [INFO ] Subject ID: 26
+2026-05-04 10:30:00 [INFO ] Load files /root/autodl-tmp/isruc_npz/26.npz ...
+2026-05-04 10:30:00 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:30:00 [INFO ] (1062, 3000, 1, 1)
+2026-05-04 10:30:00 [INFO ] W: 303
+2026-05-04 10:30:00 [INFO ] N1: 215
+2026-05-04 10:30:00 [INFO ] N2: 208
+2026-05-04 10:30:00 [INFO ] N3: 165
+2026-05-04 10:30:00 [INFO ] REM: 171
+2026-05-04 10:30:05 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_26.npz
+2026-05-04 10:30:05 [INFO ] Subject ID: 27
+2026-05-04 10:30:05 [INFO ] Load files /root/autodl-tmp/isruc_npz/27.npz ...
+2026-05-04 10:30:05 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:30:05 [INFO ] (918, 3000, 1, 1)
+2026-05-04 10:30:05 [INFO ] W: 300
+2026-05-04 10:30:05 [INFO ] N1: 57
+2026-05-04 10:30:05 [INFO ] N2: 218
+2026-05-04 10:30:05 [INFO ] N3: 239
+2026-05-04 10:30:05 [INFO ] REM: 104
+2026-05-04 10:30:09 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_27.npz
+2026-05-04 10:30:09 [INFO ] Subject ID: 28
+2026-05-04 10:30:09 [INFO ] Load files /root/autodl-tmp/isruc_npz/28.npz ...
+2026-05-04 10:30:09 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:30:09 [INFO ] (882, 3000, 1, 1)
+2026-05-04 10:30:09 [INFO ] W: 61
+2026-05-04 10:30:09 [INFO ] N1: 97
+2026-05-04 10:30:09 [INFO ] N2: 174
+2026-05-04 10:30:09 [INFO ] N3: 217
+2026-05-04 10:30:09 [INFO ] REM: 333
+2026-05-04 10:30:14 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_28.npz
+2026-05-04 10:30:14 [INFO ] Subject ID: 29
+2026-05-04 10:30:14 [INFO ] Load files /root/autodl-tmp/isruc_npz/29.npz ...
+2026-05-04 10:30:14 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:30:14 [INFO ] (912, 3000, 1, 1)
+2026-05-04 10:30:14 [INFO ] W: 241
+2026-05-04 10:30:14 [INFO ] N1: 203
+2026-05-04 10:30:14 [INFO ] N2: 259
+2026-05-04 10:30:14 [INFO ] N3: 174
+2026-05-04 10:30:14 [INFO ] REM: 35
+2026-05-04 10:30:19 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_29.npz
+2026-05-04 10:30:19 [INFO ] Subject ID: 30
+2026-05-04 10:30:19 [INFO ] Load files /root/autodl-tmp/isruc_npz/30.npz ...
+2026-05-04 10:30:19 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:30:19 [INFO ] (882, 3000, 1, 1)
+2026-05-04 10:30:19 [INFO ] W: 271
+2026-05-04 10:30:19 [INFO ] N1: 124
+2026-05-04 10:30:19 [INFO ] N2: 344
+2026-05-04 10:30:19 [INFO ] N3: 72
+2026-05-04 10:30:19 [INFO ] REM: 71
+2026-05-04 10:30:23 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_30.npz
+2026-05-04 10:30:23 [INFO ] n=9202, acc=73.0, mf1=69.9
+2026-05-04 10:30:23 [INFO ] >> Confusion Matrix
+2026-05-04 10:30:23 [INFO ] [[2149  147  104   43   18]
+ [ 266  450  344   14   86]
+ [ 104  121 1949  334   26]
+ [  46    0  218 1184    0]
+ [ 101   78  324  110  986]]
+2026-05-04 10:30:23 [INFO ] ------------------------
+2026-05-04 10:30:23 [INFO ] 
+2026-05-04 10:30:23 [INFO ] ------ Fold 4/10 ------
+2026-05-04 10:30:23 [INFO ] Test SIDs: (10) [31 32 33 34 35 36 37 38 39 40]
+2026-05-04 10:30:23 [INFO ] load best model from out_isruc_gru_se/train/3/best_ckpt/best_model.ckpt
+2026-05-04 10:30:23 [INFO ] Subject ID: 31
+2026-05-04 10:30:23 [INFO ] Load files /root/autodl-tmp/isruc_npz/31.npz ...
+2026-05-04 10:30:24 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:30:24 [INFO ] (877, 3000, 1, 1)
+2026-05-04 10:30:24 [INFO ] W: 91
+2026-05-04 10:30:24 [INFO ] N1: 154
+2026-05-04 10:30:24 [INFO ] N2: 401
+2026-05-04 10:30:24 [INFO ] N3: 118
+2026-05-04 10:30:24 [INFO ] REM: 113
+2026-05-04 10:30:28 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_31.npz
+2026-05-04 10:30:28 [INFO ] Subject ID: 32
+2026-05-04 10:30:28 [INFO ] Load files /root/autodl-tmp/isruc_npz/32.npz ...
+2026-05-04 10:30:28 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:30:28 [INFO ] (1010, 3000, 1, 1)
+2026-05-04 10:30:28 [INFO ] W: 52
+2026-05-04 10:30:28 [INFO ] N1: 224
+2026-05-04 10:30:28 [INFO ] N2: 466
+2026-05-04 10:30:28 [INFO ] N3: 130
+2026-05-04 10:30:28 [INFO ] REM: 138
+2026-05-04 10:30:33 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_32.npz
+2026-05-04 10:30:33 [INFO ] Subject ID: 33
+2026-05-04 10:30:33 [INFO ] Load files /root/autodl-tmp/isruc_npz/33.npz ...
+2026-05-04 10:30:33 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:30:33 [INFO ] (920, 3000, 1, 1)
+2026-05-04 10:30:33 [INFO ] W: 454
+2026-05-04 10:30:33 [INFO ] N1: 54
+2026-05-04 10:30:33 [INFO ] N2: 267
+2026-05-04 10:30:33 [INFO ] N3: 90
+2026-05-04 10:30:33 [INFO ] REM: 55
+2026-05-04 10:30:37 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_33.npz
+2026-05-04 10:30:37 [INFO ] Subject ID: 34
+2026-05-04 10:30:37 [INFO ] Load files /root/autodl-tmp/isruc_npz/34.npz ...
+2026-05-04 10:30:37 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:30:37 [INFO ] (871, 3000, 1, 1)
+2026-05-04 10:30:37 [INFO ] W: 78
+2026-05-04 10:30:37 [INFO ] N1: 163
+2026-05-04 10:30:37 [INFO ] N2: 331
+2026-05-04 10:30:37 [INFO ] N3: 175
+2026-05-04 10:30:37 [INFO ] REM: 124
+2026-05-04 10:30:42 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_34.npz
+2026-05-04 10:30:42 [INFO ] Subject ID: 35
+2026-05-04 10:30:42 [INFO ] Load files /root/autodl-tmp/isruc_npz/35.npz ...
+2026-05-04 10:30:42 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:30:42 [INFO ] (788, 3000, 1, 1)
+2026-05-04 10:30:42 [INFO ] W: 344
+2026-05-04 10:30:42 [INFO ] N1: 88
+2026-05-04 10:30:42 [INFO ] N2: 173
+2026-05-04 10:30:42 [INFO ] N3: 138
+2026-05-04 10:30:42 [INFO ] REM: 45
+2026-05-04 10:30:46 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_35.npz
+2026-05-04 10:30:46 [INFO ] Subject ID: 36
+2026-05-04 10:30:46 [INFO ] Load files /root/autodl-tmp/isruc_npz/36.npz ...
+2026-05-04 10:30:46 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:30:46 [INFO ] (987, 3000, 1, 1)
+2026-05-04 10:30:46 [INFO ] W: 297
+2026-05-04 10:30:46 [INFO ] N1: 116
+2026-05-04 10:30:46 [INFO ] N2: 210
+2026-05-04 10:30:46 [INFO ] N3: 131
+2026-05-04 10:30:46 [INFO ] REM: 233
+2026-05-04 10:30:52 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_36.npz
+2026-05-04 10:30:52 [INFO ] Subject ID: 37
+2026-05-04 10:30:52 [INFO ] Load files /root/autodl-tmp/isruc_npz/37.npz ...
+2026-05-04 10:30:52 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:30:52 [INFO ] (806, 3000, 1, 1)
+2026-05-04 10:30:52 [INFO ] W: 198
+2026-05-04 10:30:52 [INFO ] N1: 120
+2026-05-04 10:30:52 [INFO ] N2: 250
+2026-05-04 10:30:52 [INFO ] N3: 119
+2026-05-04 10:30:52 [INFO ] REM: 119
+2026-05-04 10:30:56 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_37.npz
+2026-05-04 10:30:56 [INFO ] Subject ID: 38
+2026-05-04 10:30:56 [INFO ] Load files /root/autodl-tmp/isruc_npz/38.npz ...
+2026-05-04 10:30:56 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:30:56 [INFO ] (932, 3000, 1, 1)
+2026-05-04 10:30:56 [INFO ] W: 112
+2026-05-04 10:30:56 [INFO ] N1: 224
+2026-05-04 10:30:56 [INFO ] N2: 368
+2026-05-04 10:30:56 [INFO ] N3: 76
+2026-05-04 10:30:56 [INFO ] REM: 152
+2026-05-04 10:31:00 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_38.npz
+2026-05-04 10:31:00 [INFO ] Subject ID: 39
+2026-05-04 10:31:00 [INFO ] Load files /root/autodl-tmp/isruc_npz/39.npz ...
+2026-05-04 10:31:00 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:31:00 [INFO ] (900, 3000, 1, 1)
+2026-05-04 10:31:00 [INFO ] W: 337
+2026-05-04 10:31:00 [INFO ] N1: 140
+2026-05-04 10:31:00 [INFO ] N2: 208
+2026-05-04 10:31:00 [INFO ] N3: 130
+2026-05-04 10:31:00 [INFO ] REM: 85
+2026-05-04 10:31:05 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_39.npz
+2026-05-04 10:31:05 [INFO ] Subject ID: 40
+2026-05-04 10:31:05 [INFO ] Load files /root/autodl-tmp/isruc_npz/40.npz ...
+2026-05-04 10:31:05 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:31:05 [INFO ] (875, 3000, 1, 1)
+2026-05-04 10:31:05 [INFO ] W: 554
+2026-05-04 10:31:05 [INFO ] N1: 23
+2026-05-04 10:31:05 [INFO ] N2: 92
+2026-05-04 10:31:05 [INFO ] N3: 198
+2026-05-04 10:31:05 [INFO ] REM: 8
+2026-05-04 10:31:09 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_40.npz
+2026-05-04 10:31:09 [INFO ] n=8966, acc=80.2, mf1=77.7
+2026-05-04 10:31:09 [INFO ] >> Confusion Matrix
+2026-05-04 10:31:09 [INFO ] [[2297  114   30    4   72]
+ [ 348  602  257    5   94]
+ [  70  200 2340   77   79]
+ [  22    4  172 1105    2]
+ [  13   72  136    0  851]]
+2026-05-04 10:31:09 [INFO ] ------------------------
+2026-05-04 10:31:09 [INFO ] 
+2026-05-04 10:31:09 [INFO ] ------ Fold 5/10 ------
+2026-05-04 10:31:09 [INFO ] Test SIDs: (10) [41 42 43 44 45 46 47 48 49 50]
+2026-05-04 10:31:09 [INFO ] load best model from out_isruc_gru_se/train/4/best_ckpt/best_model.ckpt
+2026-05-04 10:31:09 [INFO ] Subject ID: 41
+2026-05-04 10:31:09 [INFO ] Load files /root/autodl-tmp/isruc_npz/41.npz ...
+2026-05-04 10:31:09 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:31:09 [INFO ] (974, 3000, 1, 1)
+2026-05-04 10:31:09 [INFO ] W: 210
+2026-05-04 10:31:09 [INFO ] N1: 81
+2026-05-04 10:31:09 [INFO ] N2: 337
+2026-05-04 10:31:09 [INFO ] N3: 228
+2026-05-04 10:31:09 [INFO ] REM: 118
+2026-05-04 10:31:14 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_41.npz
+2026-05-04 10:31:14 [INFO ] Subject ID: 42
+2026-05-04 10:31:14 [INFO ] Load files /root/autodl-tmp/isruc_npz/42.npz ...
+2026-05-04 10:31:14 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:31:14 [INFO ] (812, 3000, 1, 1)
+2026-05-04 10:31:14 [INFO ] W: 388
+2026-05-04 10:31:14 [INFO ] N1: 111
+2026-05-04 10:31:14 [INFO ] N2: 233
+2026-05-04 10:31:14 [INFO ] N3: 42
+2026-05-04 10:31:14 [INFO ] REM: 38
+2026-05-04 10:31:18 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_42.npz
+2026-05-04 10:31:18 [INFO ] Subject ID: 43
+2026-05-04 10:31:18 [INFO ] Load files /root/autodl-tmp/isruc_npz/43.npz ...
+2026-05-04 10:31:18 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:31:18 [INFO ] (747, 3000, 1, 1)
+2026-05-04 10:31:18 [INFO ] W: 71
+2026-05-04 10:31:18 [INFO ] N1: 176
+2026-05-04 10:31:18 [INFO ] N2: 263
+2026-05-04 10:31:18 [INFO ] N3: 144
+2026-05-04 10:31:18 [INFO ] REM: 93
+2026-05-04 10:31:22 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_43.npz
+2026-05-04 10:31:22 [INFO ] Subject ID: 44
+2026-05-04 10:31:22 [INFO ] Load files /root/autodl-tmp/isruc_npz/44.npz ...
+2026-05-04 10:31:22 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:31:22 [INFO ] (932, 3000, 1, 1)
+2026-05-04 10:31:22 [INFO ] W: 90
+2026-05-04 10:31:22 [INFO ] N1: 135
+2026-05-04 10:31:22 [INFO ] N2: 365
+2026-05-04 10:31:22 [INFO ] N3: 173
+2026-05-04 10:31:22 [INFO ] REM: 169
+2026-05-04 10:31:27 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_44.npz
+2026-05-04 10:31:27 [INFO ] Subject ID: 45
+2026-05-04 10:31:27 [INFO ] Load files /root/autodl-tmp/isruc_npz/45.npz ...
+2026-05-04 10:31:27 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:31:27 [INFO ] (906, 3000, 1, 1)
+2026-05-04 10:31:27 [INFO ] W: 142
+2026-05-04 10:31:27 [INFO ] N1: 101
+2026-05-04 10:31:27 [INFO ] N2: 300
+2026-05-04 10:31:27 [INFO ] N3: 193
+2026-05-04 10:31:27 [INFO ] REM: 170
+2026-05-04 10:31:31 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_45.npz
+2026-05-04 10:31:31 [INFO ] Subject ID: 46
+2026-05-04 10:31:31 [INFO ] Load files /root/autodl-tmp/isruc_npz/46.npz ...
+2026-05-04 10:31:31 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:31:31 [INFO ] (863, 3000, 1, 1)
+2026-05-04 10:31:31 [INFO ] W: 138
+2026-05-04 10:31:31 [INFO ] N1: 67
+2026-05-04 10:31:31 [INFO ] N2: 386
+2026-05-04 10:31:31 [INFO ] N3: 129
+2026-05-04 10:31:31 [INFO ] REM: 143
+2026-05-04 10:31:35 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_46.npz
+2026-05-04 10:31:35 [INFO ] Subject ID: 47
+2026-05-04 10:31:35 [INFO ] Load files /root/autodl-tmp/isruc_npz/47.npz ...
+2026-05-04 10:31:35 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:31:35 [INFO ] (838, 3000, 1, 1)
+2026-05-04 10:31:35 [INFO ] W: 286
+2026-05-04 10:31:35 [INFO ] N1: 168
+2026-05-04 10:31:35 [INFO ] N2: 211
+2026-05-04 10:31:35 [INFO ] N3: 115
+2026-05-04 10:31:35 [INFO ] REM: 58
+2026-05-04 10:31:39 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_47.npz
+2026-05-04 10:31:39 [INFO ] Subject ID: 48
+2026-05-04 10:31:39 [INFO ] Load files /root/autodl-tmp/isruc_npz/48.npz ...
+2026-05-04 10:31:39 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:31:39 [INFO ] (981, 3000, 1, 1)
+2026-05-04 10:31:39 [INFO ] W: 347
+2026-05-04 10:31:39 [INFO ] N1: 71
+2026-05-04 10:31:39 [INFO ] N2: 212
+2026-05-04 10:31:39 [INFO ] N3: 206
+2026-05-04 10:31:39 [INFO ] REM: 145
+2026-05-04 10:31:44 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_48.npz
+2026-05-04 10:31:44 [INFO ] Subject ID: 49
+2026-05-04 10:31:44 [INFO ] Load files /root/autodl-tmp/isruc_npz/49.npz ...
+2026-05-04 10:31:44 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:31:44 [INFO ] (793, 3000, 1, 1)
+2026-05-04 10:31:44 [INFO ] W: 175
+2026-05-04 10:31:44 [INFO ] N1: 84
+2026-05-04 10:31:44 [INFO ] N2: 244
+2026-05-04 10:31:44 [INFO ] N3: 222
+2026-05-04 10:31:44 [INFO ] REM: 68
+2026-05-04 10:31:47 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_49.npz
+2026-05-04 10:31:47 [INFO ] Subject ID: 50
+2026-05-04 10:31:47 [INFO ] Load files /root/autodl-tmp/isruc_npz/50.npz ...
+2026-05-04 10:31:48 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:31:48 [INFO ] (905, 3000, 1, 1)
+2026-05-04 10:31:48 [INFO ] W: 107
+2026-05-04 10:31:48 [INFO ] N1: 38
+2026-05-04 10:31:48 [INFO ] N2: 327
+2026-05-04 10:31:48 [INFO ] N3: 206
+2026-05-04 10:31:48 [INFO ] REM: 227
+2026-05-04 10:31:52 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_50.npz
+2026-05-04 10:31:52 [INFO ] n=8751, acc=79.1, mf1=76.6
+2026-05-04 10:31:52 [INFO ] >> Confusion Matrix
+2026-05-04 10:31:52 [INFO ] [[1625  239   20   10   60]
+ [ 138  500  263    7  124]
+ [   9  140 2413  193  123]
+ [   0    0  320 1338    0]
+ [  14   48  118    1 1048]]
+2026-05-04 10:31:52 [INFO ] ------------------------
+2026-05-04 10:31:52 [INFO ] 
+2026-05-04 10:31:52 [INFO ] ------ Fold 6/10 ------
+2026-05-04 10:31:52 [INFO ] Test SIDs: (10) [51 52 53 54 55 56 57 58 59 60]
+2026-05-04 10:31:52 [INFO ] load best model from out_isruc_gru_se/train/5/best_ckpt/best_model.ckpt
+2026-05-04 10:31:52 [INFO ] Subject ID: 51
+2026-05-04 10:31:52 [INFO ] Load files /root/autodl-tmp/isruc_npz/51.npz ...
+2026-05-04 10:31:52 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:31:52 [INFO ] (856, 3000, 1, 1)
+2026-05-04 10:31:52 [INFO ] W: 197
+2026-05-04 10:31:52 [INFO ] N1: 69
+2026-05-04 10:31:52 [INFO ] N2: 345
+2026-05-04 10:31:52 [INFO ] N3: 148
+2026-05-04 10:31:52 [INFO ] REM: 97
+2026-05-04 10:31:56 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_51.npz
+2026-05-04 10:31:56 [INFO ] Subject ID: 52
+2026-05-04 10:31:56 [INFO ] Load files /root/autodl-tmp/isruc_npz/52.npz ...
+2026-05-04 10:31:56 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:31:56 [INFO ] (912, 3000, 1, 1)
+2026-05-04 10:31:56 [INFO ] W: 162
+2026-05-04 10:31:56 [INFO ] N1: 101
+2026-05-04 10:31:56 [INFO ] N2: 279
+2026-05-04 10:31:56 [INFO ] N3: 276
+2026-05-04 10:31:56 [INFO ] REM: 94
+2026-05-04 10:32:01 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_52.npz
+2026-05-04 10:32:01 [INFO ] Subject ID: 53
+2026-05-04 10:32:01 [INFO ] Load files /root/autodl-tmp/isruc_npz/53.npz ...
+2026-05-04 10:32:01 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:32:01 [INFO ] (910, 3000, 1, 1)
+2026-05-04 10:32:01 [INFO ] W: 29
+2026-05-04 10:32:01 [INFO ] N1: 74
+2026-05-04 10:32:01 [INFO ] N2: 373
+2026-05-04 10:32:01 [INFO ] N3: 257
+2026-05-04 10:32:01 [INFO ] REM: 177
+2026-05-04 10:32:05 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_53.npz
+2026-05-04 10:32:05 [INFO ] Subject ID: 54
+2026-05-04 10:32:05 [INFO ] Load files /root/autodl-tmp/isruc_npz/54.npz ...
+2026-05-04 10:32:05 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:32:05 [INFO ] (814, 3000, 1, 1)
+2026-05-04 10:32:05 [INFO ] W: 222
+2026-05-04 10:32:05 [INFO ] N1: 81
+2026-05-04 10:32:05 [INFO ] N2: 204
+2026-05-04 10:32:05 [INFO ] N3: 307
+2026-05-04 10:32:09 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_54.npz
+2026-05-04 10:32:09 [INFO ] Subject ID: 55
+2026-05-04 10:32:09 [INFO ] Load files /root/autodl-tmp/isruc_npz/55.npz ...
+2026-05-04 10:32:09 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:32:09 [INFO ] (879, 3000, 1, 1)
+2026-05-04 10:32:09 [INFO ] W: 94
+2026-05-04 10:32:09 [INFO ] N1: 88
+2026-05-04 10:32:09 [INFO ] N2: 364
+2026-05-04 10:32:09 [INFO ] N3: 199
+2026-05-04 10:32:09 [INFO ] REM: 134
+2026-05-04 10:32:13 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_55.npz
+2026-05-04 10:32:13 [INFO ] Subject ID: 56
+2026-05-04 10:32:13 [INFO ] Load files /root/autodl-tmp/isruc_npz/56.npz ...
+2026-05-04 10:32:13 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:32:13 [INFO ] (956, 3000, 1, 1)
+2026-05-04 10:32:13 [INFO ] W: 236
+2026-05-04 10:32:13 [INFO ] N1: 126
+2026-05-04 10:32:13 [INFO ] N2: 315
+2026-05-04 10:32:13 [INFO ] N3: 150
+2026-05-04 10:32:13 [INFO ] REM: 129
+2026-05-04 10:32:19 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_56.npz
+2026-05-04 10:32:19 [INFO ] Subject ID: 57
+2026-05-04 10:32:19 [INFO ] Load files /root/autodl-tmp/isruc_npz/57.npz ...
+2026-05-04 10:32:19 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:32:19 [INFO ] (1007, 3000, 1, 1)
+2026-05-04 10:32:19 [INFO ] W: 151
+2026-05-04 10:32:19 [INFO ] N1: 69
+2026-05-04 10:32:19 [INFO ] N2: 281
+2026-05-04 10:32:19 [INFO ] N3: 401
+2026-05-04 10:32:19 [INFO ] REM: 105
+2026-05-04 10:32:25 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_57.npz
+2026-05-04 10:32:25 [INFO ] Subject ID: 58
+2026-05-04 10:32:25 [INFO ] Load files /root/autodl-tmp/isruc_npz/58.npz ...
+2026-05-04 10:32:25 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:32:25 [INFO ] (965, 3000, 1, 1)
+2026-05-04 10:32:25 [INFO ] W: 94
+2026-05-04 10:32:25 [INFO ] N1: 196
+2026-05-04 10:32:25 [INFO ] N2: 421
+2026-05-04 10:32:25 [INFO ] N3: 131
+2026-05-04 10:32:25 [INFO ] REM: 123
+2026-05-04 10:32:30 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_58.npz
+2026-05-04 10:32:30 [INFO ] Subject ID: 59
+2026-05-04 10:32:30 [INFO ] Load files /root/autodl-tmp/isruc_npz/59.npz ...
+2026-05-04 10:32:30 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:32:30 [INFO ] (942, 3000, 1, 1)
+2026-05-04 10:32:30 [INFO ] W: 122
+2026-05-04 10:32:30 [INFO ] N1: 175
+2026-05-04 10:32:30 [INFO ] N2: 217
+2026-05-04 10:32:30 [INFO ] N3: 277
+2026-05-04 10:32:30 [INFO ] REM: 151
+2026-05-04 10:32:34 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_59.npz
+2026-05-04 10:32:34 [INFO ] Subject ID: 60
+2026-05-04 10:32:34 [INFO ] Load files /root/autodl-tmp/isruc_npz/60.npz ...
+2026-05-04 10:32:34 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:32:34 [INFO ] (916, 3000, 1, 1)
+2026-05-04 10:32:34 [INFO ] W: 169
+2026-05-04 10:32:34 [INFO ] N1: 89
+2026-05-04 10:32:34 [INFO ] N2: 292
+2026-05-04 10:32:34 [INFO ] N3: 233
+2026-05-04 10:32:34 [INFO ] REM: 133
+2026-05-04 10:32:38 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_60.npz
+2026-05-04 10:32:38 [INFO ] n=9157, acc=78.7, mf1=74.9
+2026-05-04 10:32:38 [INFO ] >> Confusion Matrix
+2026-05-04 10:32:38 [INFO ] [[1251  119   54   11   41]
+ [ 144  424  287   11  202]
+ [  40  196 2444  321   90]
+ [   3    4  223 2145    4]
+ [   0  120   83    1  939]]
+2026-05-04 10:32:38 [INFO ] ------------------------
+2026-05-04 10:32:38 [INFO ] 
+2026-05-04 10:32:38 [INFO ] ------ Fold 7/10 ------
+2026-05-04 10:32:38 [INFO ] Test SIDs: (10) [61 62 63 64 65 66 67 68 69 70]
+2026-05-04 10:32:39 [INFO ] load best model from out_isruc_gru_se/train/6/best_ckpt/best_model.ckpt
+2026-05-04 10:32:39 [INFO ] Subject ID: 61
+2026-05-04 10:32:39 [INFO ] Load files /root/autodl-tmp/isruc_npz/61.npz ...
+2026-05-04 10:32:39 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:32:39 [INFO ] (852, 3000, 1, 1)
+2026-05-04 10:32:39 [INFO ] W: 202
+2026-05-04 10:32:39 [INFO ] N1: 103
+2026-05-04 10:32:39 [INFO ] N2: 249
+2026-05-04 10:32:39 [INFO ] N3: 221
+2026-05-04 10:32:39 [INFO ] REM: 77
+2026-05-04 10:32:43 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_61.npz
+2026-05-04 10:32:43 [INFO ] Subject ID: 62
+2026-05-04 10:32:43 [INFO ] Load files /root/autodl-tmp/isruc_npz/62.npz ...
+2026-05-04 10:32:43 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:32:43 [INFO ] (864, 3000, 1, 1)
+2026-05-04 10:32:43 [INFO ] W: 87
+2026-05-04 10:32:43 [INFO ] N1: 116
+2026-05-04 10:32:43 [INFO ] N2: 320
+2026-05-04 10:32:43 [INFO ] N3: 216
+2026-05-04 10:32:43 [INFO ] REM: 125
+2026-05-04 10:32:47 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_62.npz
+2026-05-04 10:32:47 [INFO ] Subject ID: 63
+2026-05-04 10:32:47 [INFO ] Load files /root/autodl-tmp/isruc_npz/63.npz ...
+2026-05-04 10:32:47 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:32:47 [INFO ] (954, 3000, 1, 1)
+2026-05-04 10:32:47 [INFO ] W: 301
+2026-05-04 10:32:47 [INFO ] N1: 154
+2026-05-04 10:32:47 [INFO ] N2: 317
+2026-05-04 10:32:47 [INFO ] N3: 101
+2026-05-04 10:32:47 [INFO ] REM: 81
+2026-05-04 10:32:52 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_63.npz
+2026-05-04 10:32:52 [INFO ] Subject ID: 64
+2026-05-04 10:32:52 [INFO ] Load files /root/autodl-tmp/isruc_npz/64.npz ...
+2026-05-04 10:32:52 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:32:52 [INFO ] (892, 3000, 1, 1)
+2026-05-04 10:32:52 [INFO ] W: 212
+2026-05-04 10:32:52 [INFO ] N1: 245
+2026-05-04 10:32:52 [INFO ] N2: 171
+2026-05-04 10:32:52 [INFO ] N3: 179
+2026-05-04 10:32:52 [INFO ] REM: 85
+2026-05-04 10:32:57 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_64.npz
+2026-05-04 10:32:57 [INFO ] Subject ID: 65
+2026-05-04 10:32:57 [INFO ] Load files /root/autodl-tmp/isruc_npz/65.npz ...
+2026-05-04 10:32:57 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:32:57 [INFO ] (1014, 3000, 1, 1)
+2026-05-04 10:32:57 [INFO ] W: 188
+2026-05-04 10:32:57 [INFO ] N1: 50
+2026-05-04 10:32:57 [INFO ] N2: 225
+2026-05-04 10:32:57 [INFO ] N3: 417
+2026-05-04 10:32:57 [INFO ] REM: 134
+2026-05-04 10:33:02 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_65.npz
+2026-05-04 10:33:02 [INFO ] Subject ID: 66
+2026-05-04 10:33:02 [INFO ] Load files /root/autodl-tmp/isruc_npz/66.npz ...
+2026-05-04 10:33:02 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:33:02 [INFO ] (845, 3000, 1, 1)
+2026-05-04 10:33:02 [INFO ] W: 258
+2026-05-04 10:33:02 [INFO ] N1: 152
+2026-05-04 10:33:02 [INFO ] N2: 198
+2026-05-04 10:33:02 [INFO ] N3: 147
+2026-05-04 10:33:02 [INFO ] REM: 90
+2026-05-04 10:33:07 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_66.npz
+2026-05-04 10:33:07 [INFO ] Subject ID: 67
+2026-05-04 10:33:07 [INFO ] Load files /root/autodl-tmp/isruc_npz/67.npz ...
+2026-05-04 10:33:07 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:33:07 [INFO ] (862, 3000, 1, 1)
+2026-05-04 10:33:07 [INFO ] W: 77
+2026-05-04 10:33:07 [INFO ] N1: 132
+2026-05-04 10:33:07 [INFO ] N2: 279
+2026-05-04 10:33:07 [INFO ] N3: 193
+2026-05-04 10:33:07 [INFO ] REM: 181
+2026-05-04 10:33:13 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_67.npz
+2026-05-04 10:33:13 [INFO ] Subject ID: 68
+2026-05-04 10:33:13 [INFO ] Load files /root/autodl-tmp/isruc_npz/68.npz ...
+2026-05-04 10:33:13 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:33:13 [INFO ] (956, 3000, 1, 1)
+2026-05-04 10:33:13 [INFO ] W: 130
+2026-05-04 10:33:13 [INFO ] N1: 159
+2026-05-04 10:33:13 [INFO ] N2: 335
+2026-05-04 10:33:13 [INFO ] N3: 193
+2026-05-04 10:33:13 [INFO ] REM: 139
+2026-05-04 10:33:20 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_68.npz
+2026-05-04 10:33:20 [INFO ] Subject ID: 69
+2026-05-04 10:33:20 [INFO ] Load files /root/autodl-tmp/isruc_npz/69.npz ...
+2026-05-04 10:33:20 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:33:20 [INFO ] (815, 3000, 1, 1)
+2026-05-04 10:33:20 [INFO ] W: 33
+2026-05-04 10:33:20 [INFO ] N1: 27
+2026-05-04 10:33:20 [INFO ] N2: 223
+2026-05-04 10:33:20 [INFO ] N3: 298
+2026-05-04 10:33:20 [INFO ] REM: 234
+2026-05-04 10:33:24 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_69.npz
+2026-05-04 10:33:24 [INFO ] Subject ID: 70
+2026-05-04 10:33:24 [INFO ] Load files /root/autodl-tmp/isruc_npz/70.npz ...
+2026-05-04 10:33:24 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:33:24 [INFO ] (893, 3000, 1, 1)
+2026-05-04 10:33:24 [INFO ] W: 259
+2026-05-04 10:33:24 [INFO ] N1: 199
+2026-05-04 10:33:24 [INFO ] N2: 248
+2026-05-04 10:33:24 [INFO ] N3: 76
+2026-05-04 10:33:24 [INFO ] REM: 111
+2026-05-04 10:33:29 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_70.npz
+2026-05-04 10:33:29 [INFO ] n=8947, acc=76.9, mf1=75.9
+2026-05-04 10:33:29 [INFO ] >> Confusion Matrix
+2026-05-04 10:33:29 [INFO ] [[1649   55   29    5    9]
+ [ 277  678  281    1  100]
+ [  41  196 2226   46   56]
+ [   0    1  685 1354    1]
+ [  33  145  109    1  969]]
+2026-05-04 10:33:29 [INFO ] ------------------------
+2026-05-04 10:33:29 [INFO ] 
+2026-05-04 10:33:29 [INFO ] ------ Fold 8/10 ------
+2026-05-04 10:33:29 [INFO ] Test SIDs: (10) [71 72 73 74 75 76 77 78 79 80]
+2026-05-04 10:33:29 [INFO ] load best model from out_isruc_gru_se/train/7/best_ckpt/best_model.ckpt
+2026-05-04 10:33:29 [INFO ] Subject ID: 71
+2026-05-04 10:33:29 [INFO ] Load files /root/autodl-tmp/isruc_npz/71.npz ...
+2026-05-04 10:33:29 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:33:29 [INFO ] (829, 3000, 1, 1)
+2026-05-04 10:33:29 [INFO ] W: 109
+2026-05-04 10:33:29 [INFO ] N1: 165
+2026-05-04 10:33:29 [INFO ] N2: 382
+2026-05-04 10:33:29 [INFO ] N3: 81
+2026-05-04 10:33:29 [INFO ] REM: 92
+2026-05-04 10:33:34 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_71.npz
+2026-05-04 10:33:34 [INFO ] Subject ID: 72
+2026-05-04 10:33:34 [INFO ] Load files /root/autodl-tmp/isruc_npz/72.npz ...
+2026-05-04 10:33:34 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:33:34 [INFO ] (872, 3000, 1, 1)
+2026-05-04 10:33:34 [INFO ] W: 277
+2026-05-04 10:33:34 [INFO ] N1: 115
+2026-05-04 10:33:34 [INFO ] N2: 224
+2026-05-04 10:33:34 [INFO ] N3: 135
+2026-05-04 10:33:34 [INFO ] REM: 121
+2026-05-04 10:33:38 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_72.npz
+2026-05-04 10:33:38 [INFO ] Subject ID: 73
+2026-05-04 10:33:38 [INFO ] Load files /root/autodl-tmp/isruc_npz/73.npz ...
+2026-05-04 10:33:38 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:33:38 [INFO ] (997, 3000, 1, 1)
+2026-05-04 10:33:38 [INFO ] W: 223
+2026-05-04 10:33:38 [INFO ] N1: 177
+2026-05-04 10:33:38 [INFO ] N2: 319
+2026-05-04 10:33:38 [INFO ] N3: 167
+2026-05-04 10:33:38 [INFO ] REM: 111
+2026-05-04 10:33:44 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_73.npz
+2026-05-04 10:33:44 [INFO ] Subject ID: 74
+2026-05-04 10:33:44 [INFO ] Load files /root/autodl-tmp/isruc_npz/74.npz ...
+2026-05-04 10:33:44 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:33:44 [INFO ] (897, 3000, 1, 1)
+2026-05-04 10:33:44 [INFO ] W: 375
+2026-05-04 10:33:44 [INFO ] N1: 85
+2026-05-04 10:33:44 [INFO ] N2: 275
+2026-05-04 10:33:44 [INFO ] N3: 81
+2026-05-04 10:33:44 [INFO ] REM: 81
+2026-05-04 10:33:48 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_74.npz
+2026-05-04 10:33:48 [INFO ] Subject ID: 75
+2026-05-04 10:33:48 [INFO ] Load files /root/autodl-tmp/isruc_npz/75.npz ...
+2026-05-04 10:33:48 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:33:48 [INFO ] (898, 3000, 1, 1)
+2026-05-04 10:33:48 [INFO ] W: 254
+2026-05-04 10:33:48 [INFO ] N1: 165
+2026-05-04 10:33:48 [INFO ] N2: 234
+2026-05-04 10:33:48 [INFO ] N3: 168
+2026-05-04 10:33:48 [INFO ] REM: 77
+2026-05-04 10:33:53 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_75.npz
+2026-05-04 10:33:53 [INFO ] Subject ID: 76
+2026-05-04 10:33:53 [INFO ] Load files /root/autodl-tmp/isruc_npz/76.npz ...
+2026-05-04 10:33:53 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:33:53 [INFO ] (850, 3000, 1, 1)
+2026-05-04 10:33:53 [INFO ] W: 34
+2026-05-04 10:33:53 [INFO ] N1: 41
+2026-05-04 10:33:53 [INFO ] N2: 457
+2026-05-04 10:33:53 [INFO ] N3: 188
+2026-05-04 10:33:53 [INFO ] REM: 130
+2026-05-04 10:33:57 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_76.npz
+2026-05-04 10:33:57 [INFO ] Subject ID: 77
+2026-05-04 10:33:57 [INFO ] Load files /root/autodl-tmp/isruc_npz/77.npz ...
+2026-05-04 10:33:57 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:33:57 [INFO ] (805, 3000, 1, 1)
+2026-05-04 10:33:57 [INFO ] W: 82
+2026-05-04 10:33:57 [INFO ] N1: 149
+2026-05-04 10:33:57 [INFO ] N2: 352
+2026-05-04 10:33:57 [INFO ] N3: 168
+2026-05-04 10:33:57 [INFO ] REM: 54
+2026-05-04 10:34:01 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_77.npz
+2026-05-04 10:34:01 [INFO ] Subject ID: 78
+2026-05-04 10:34:01 [INFO ] Load files /root/autodl-tmp/isruc_npz/78.npz ...
+2026-05-04 10:34:01 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:34:01 [INFO ] (894, 3000, 1, 1)
+2026-05-04 10:34:01 [INFO ] W: 234
+2026-05-04 10:34:01 [INFO ] N1: 69
+2026-05-04 10:34:01 [INFO ] N2: 252
+2026-05-04 10:34:01 [INFO ] N3: 205
+2026-05-04 10:34:01 [INFO ] REM: 134
+2026-05-04 10:34:06 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_78.npz
+2026-05-04 10:34:06 [INFO ] Subject ID: 79
+2026-05-04 10:34:06 [INFO ] Load files /root/autodl-tmp/isruc_npz/79.npz ...
+2026-05-04 10:34:06 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:34:06 [INFO ] (880, 3000, 1, 1)
+2026-05-04 10:34:06 [INFO ] W: 58
+2026-05-04 10:34:06 [INFO ] N1: 151
+2026-05-04 10:34:06 [INFO ] N2: 377
+2026-05-04 10:34:06 [INFO ] N3: 150
+2026-05-04 10:34:06 [INFO ] REM: 144
+2026-05-04 10:34:10 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_79.npz
+2026-05-04 10:34:10 [INFO ] Subject ID: 80
+2026-05-04 10:34:10 [INFO ] Load files /root/autodl-tmp/isruc_npz/80.npz ...
+2026-05-04 10:34:10 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:34:10 [INFO ] (889, 3000, 1, 1)
+2026-05-04 10:34:10 [INFO ] W: 119
+2026-05-04 10:34:10 [INFO ] N1: 171
+2026-05-04 10:34:10 [INFO ] N2: 362
+2026-05-04 10:34:10 [INFO ] N3: 179
+2026-05-04 10:34:10 [INFO ] REM: 58
+2026-05-04 10:34:15 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_80.npz
+2026-05-04 10:34:15 [INFO ] n=8811, acc=77.8, mf1=76.3
+2026-05-04 10:34:15 [INFO ] >> Confusion Matrix
+2026-05-04 10:34:15 [INFO ] [[1609  109   27    2   18]
+ [ 153  721  289    0  125]
+ [  35  390 2733   27   49]
+ [   1    1  492 1027    1]
+ [  29  149   63    0  761]]
+2026-05-04 10:34:15 [INFO ] ------------------------
+2026-05-04 10:34:15 [INFO ] 
+2026-05-04 10:34:15 [INFO ] ------ Fold 9/10 ------
+2026-05-04 10:34:15 [INFO ] Test SIDs: (10) [81 82 83 84 85 86 87 88 89 90]
+2026-05-04 10:34:15 [INFO ] load best model from out_isruc_gru_se/train/8/best_ckpt/best_model.ckpt
+2026-05-04 10:34:15 [INFO ] Subject ID: 81
+2026-05-04 10:34:15 [INFO ] Load files /root/autodl-tmp/isruc_npz/81.npz ...
+2026-05-04 10:34:15 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:34:15 [INFO ] (911, 3000, 1, 1)
+2026-05-04 10:34:15 [INFO ] W: 367
+2026-05-04 10:34:15 [INFO ] N1: 96
+2026-05-04 10:34:15 [INFO ] N2: 208
+2026-05-04 10:34:15 [INFO ] N3: 187
+2026-05-04 10:34:15 [INFO ] REM: 53
+2026-05-04 10:34:20 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_81.npz
+2026-05-04 10:34:20 [INFO ] Subject ID: 82
+2026-05-04 10:34:20 [INFO ] Load files /root/autodl-tmp/isruc_npz/82.npz ...
+2026-05-04 10:34:20 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:34:20 [INFO ] (882, 3000, 1, 1)
+2026-05-04 10:34:20 [INFO ] W: 162
+2026-05-04 10:34:20 [INFO ] N1: 111
+2026-05-04 10:34:20 [INFO ] N2: 282
+2026-05-04 10:34:20 [INFO ] N3: 205
+2026-05-04 10:34:20 [INFO ] REM: 122
+2026-05-04 10:34:25 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_82.npz
+2026-05-04 10:34:25 [INFO ] Subject ID: 83
+2026-05-04 10:34:25 [INFO ] Load files /root/autodl-tmp/isruc_npz/83.npz ...
+2026-05-04 10:34:25 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:34:25 [INFO ] (925, 3000, 1, 1)
+2026-05-04 10:34:25 [INFO ] W: 227
+2026-05-04 10:34:25 [INFO ] N1: 93
+2026-05-04 10:34:25 [INFO ] N2: 350
+2026-05-04 10:34:25 [INFO ] N3: 115
+2026-05-04 10:34:25 [INFO ] REM: 140
+2026-05-04 10:34:30 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_83.npz
+2026-05-04 10:34:30 [INFO ] Subject ID: 84
+2026-05-04 10:34:30 [INFO ] Load files /root/autodl-tmp/isruc_npz/84.npz ...
+2026-05-04 10:34:30 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:34:30 [INFO ] (963, 3000, 1, 1)
+2026-05-04 10:34:30 [INFO ] W: 121
+2026-05-04 10:34:30 [INFO ] N1: 56
+2026-05-04 10:34:30 [INFO ] N2: 292
+2026-05-04 10:34:30 [INFO ] N3: 345
+2026-05-04 10:34:30 [INFO ] REM: 149
+2026-05-04 10:34:35 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_84.npz
+2026-05-04 10:34:35 [INFO ] Subject ID: 85
+2026-05-04 10:34:35 [INFO ] Load files /root/autodl-tmp/isruc_npz/85.npz ...
+2026-05-04 10:34:35 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:34:35 [INFO ] (896, 3000, 1, 1)
+2026-05-04 10:34:35 [INFO ] W: 130
+2026-05-04 10:34:35 [INFO ] N1: 85
+2026-05-04 10:34:35 [INFO ] N2: 358
+2026-05-04 10:34:35 [INFO ] N3: 196
+2026-05-04 10:34:35 [INFO ] REM: 127
+2026-05-04 10:34:40 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_85.npz
+2026-05-04 10:34:40 [INFO ] Subject ID: 86
+2026-05-04 10:34:40 [INFO ] Load files /root/autodl-tmp/isruc_npz/86.npz ...
+2026-05-04 10:34:40 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:34:40 [INFO ] (964, 3000, 1, 1)
+2026-05-04 10:34:40 [INFO ] W: 180
+2026-05-04 10:34:40 [INFO ] N1: 137
+2026-05-04 10:34:40 [INFO ] N2: 390
+2026-05-04 10:34:40 [INFO ] N3: 128
+2026-05-04 10:34:40 [INFO ] REM: 129
+2026-05-04 10:34:45 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_86.npz
+2026-05-04 10:34:45 [INFO ] Subject ID: 87
+2026-05-04 10:34:45 [INFO ] Load files /root/autodl-tmp/isruc_npz/87.npz ...
+2026-05-04 10:34:45 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:34:45 [INFO ] (926, 3000, 1, 1)
+2026-05-04 10:34:45 [INFO ] W: 180
+2026-05-04 10:34:45 [INFO ] N1: 64
+2026-05-04 10:34:45 [INFO ] N2: 344
+2026-05-04 10:34:45 [INFO ] N3: 180
+2026-05-04 10:34:45 [INFO ] REM: 158
+2026-05-04 10:34:50 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_87.npz
+2026-05-04 10:34:50 [INFO ] Subject ID: 88
+2026-05-04 10:34:50 [INFO ] Load files /root/autodl-tmp/isruc_npz/88.npz ...
+2026-05-04 10:34:50 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:34:50 [INFO ] (1002, 3000, 1, 1)
+2026-05-04 10:34:50 [INFO ] W: 262
+2026-05-04 10:34:50 [INFO ] N1: 123
+2026-05-04 10:34:50 [INFO ] N2: 354
+2026-05-04 10:34:50 [INFO ] N3: 255
+2026-05-04 10:34:50 [INFO ] REM: 8
+2026-05-04 10:34:55 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_88.npz
+2026-05-04 10:34:55 [INFO ] Subject ID: 89
+2026-05-04 10:34:55 [INFO ] Load files /root/autodl-tmp/isruc_npz/89.npz ...
+2026-05-04 10:34:55 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:34:55 [INFO ] (1036, 3000, 1, 1)
+2026-05-04 10:34:55 [INFO ] W: 417
+2026-05-04 10:34:55 [INFO ] N1: 87
+2026-05-04 10:34:55 [INFO ] N2: 269
+2026-05-04 10:34:55 [INFO ] N3: 172
+2026-05-04 10:34:55 [INFO ] REM: 91
+2026-05-04 10:35:00 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_89.npz
+2026-05-04 10:35:00 [INFO ] Subject ID: 90
+2026-05-04 10:35:00 [INFO ] Load files /root/autodl-tmp/isruc_npz/90.npz ...
+2026-05-04 10:35:00 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:35:00 [INFO ] (933, 3000, 1, 1)
+2026-05-04 10:35:00 [INFO ] W: 59
+2026-05-04 10:35:00 [INFO ] N1: 167
+2026-05-04 10:35:00 [INFO ] N2: 408
+2026-05-04 10:35:00 [INFO ] N3: 197
+2026-05-04 10:35:00 [INFO ] REM: 102
+2026-05-04 10:35:05 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_90.npz
+2026-05-04 10:35:05 [INFO ] n=9438, acc=79.8, mf1=76.4
+2026-05-04 10:35:05 [INFO ] >> Confusion Matrix
+2026-05-04 10:35:05 [INFO ] [[1929  114   28   10   24]
+ [ 172  458  217    7  165]
+ [  62  259 2588  180  166]
+ [   0    2  351 1627    0]
+ [   3   29  119    1  927]]
+2026-05-04 10:35:05 [INFO ] ------------------------
+2026-05-04 10:35:05 [INFO ] 
+2026-05-04 10:35:05 [INFO ] ------ Fold 10/10 ------
+2026-05-04 10:35:05 [INFO ] Test SIDs: (10) [ 91  92  93  94  95  96  97  98  99 100]
+2026-05-04 10:35:05 [INFO ] load best model from out_isruc_gru_se/train/9/best_ckpt/best_model.ckpt
+2026-05-04 10:35:06 [INFO ] Subject ID: 91
+2026-05-04 10:35:06 [INFO ] Load files /root/autodl-tmp/isruc_npz/91.npz ...
+2026-05-04 10:35:06 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:35:06 [INFO ] (990, 3000, 1, 1)
+2026-05-04 10:35:06 [INFO ] W: 143
+2026-05-04 10:35:06 [INFO ] N1: 124
+2026-05-04 10:35:06 [INFO ] N2: 352
+2026-05-04 10:35:06 [INFO ] N3: 177
+2026-05-04 10:35:06 [INFO ] REM: 194
+2026-05-04 10:35:10 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_91.npz
+2026-05-04 10:35:10 [INFO ] Subject ID: 92
+2026-05-04 10:35:10 [INFO ] Load files /root/autodl-tmp/isruc_npz/92.npz ...
+2026-05-04 10:35:10 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:35:10 [INFO ] (877, 3000, 1, 1)
+2026-05-04 10:35:10 [INFO ] W: 166
+2026-05-04 10:35:10 [INFO ] N1: 54
+2026-05-04 10:35:10 [INFO ] N2: 375
+2026-05-04 10:35:10 [INFO ] N3: 209
+2026-05-04 10:35:10 [INFO ] REM: 73
+2026-05-04 10:35:14 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_92.npz
+2026-05-04 10:35:14 [INFO ] Subject ID: 93
+2026-05-04 10:35:14 [INFO ] Load files /root/autodl-tmp/isruc_npz/93.npz ...
+2026-05-04 10:35:14 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:35:14 [INFO ] (870, 3000, 1, 1)
+2026-05-04 10:35:14 [INFO ] W: 56
+2026-05-04 10:35:14 [INFO ] N1: 152
+2026-05-04 10:35:14 [INFO ] N2: 372
+2026-05-04 10:35:14 [INFO ] N3: 158
+2026-05-04 10:35:14 [INFO ] REM: 132
+2026-05-04 10:35:19 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_93.npz
+2026-05-04 10:35:19 [INFO ] Subject ID: 94
+2026-05-04 10:35:19 [INFO ] Load files /root/autodl-tmp/isruc_npz/94.npz ...
+2026-05-04 10:35:19 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:35:19 [INFO ] (846, 3000, 1, 1)
+2026-05-04 10:35:19 [INFO ] W: 215
+2026-05-04 10:35:19 [INFO ] N1: 75
+2026-05-04 10:35:19 [INFO ] N2: 308
+2026-05-04 10:35:19 [INFO ] N3: 129
+2026-05-04 10:35:19 [INFO ] REM: 119
+2026-05-04 10:35:23 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_94.npz
+2026-05-04 10:35:23 [INFO ] Subject ID: 95
+2026-05-04 10:35:23 [INFO ] Load files /root/autodl-tmp/isruc_npz/95.npz ...
+2026-05-04 10:35:23 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:35:23 [INFO ] (865, 3000, 1, 1)
+2026-05-04 10:35:23 [INFO ] W: 152
+2026-05-04 10:35:23 [INFO ] N1: 176
+2026-05-04 10:35:23 [INFO ] N2: 245
+2026-05-04 10:35:23 [INFO ] N3: 132
+2026-05-04 10:35:23 [INFO ] REM: 160
+2026-05-04 10:35:28 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_95.npz
+2026-05-04 10:35:28 [INFO ] Subject ID: 96
+2026-05-04 10:35:28 [INFO ] Load files /root/autodl-tmp/isruc_npz/96.npz ...
+2026-05-04 10:35:28 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:35:28 [INFO ] (858, 3000, 1, 1)
+2026-05-04 10:35:28 [INFO ] W: 148
+2026-05-04 10:35:28 [INFO ] N1: 58
+2026-05-04 10:35:28 [INFO ] N2: 317
+2026-05-04 10:35:28 [INFO ] N3: 199
+2026-05-04 10:35:28 [INFO ] REM: 136
+2026-05-04 10:35:32 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_96.npz
+2026-05-04 10:35:32 [INFO ] Subject ID: 97
+2026-05-04 10:35:32 [INFO ] Load files /root/autodl-tmp/isruc_npz/97.npz ...
+2026-05-04 10:35:32 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:35:32 [INFO ] (912, 3000, 1, 1)
+2026-05-04 10:35:32 [INFO ] W: 199
+2026-05-04 10:35:32 [INFO ] N1: 92
+2026-05-04 10:35:32 [INFO ] N2: 212
+2026-05-04 10:35:32 [INFO ] N3: 261
+2026-05-04 10:35:32 [INFO ] REM: 148
+2026-05-04 10:35:36 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_97.npz
+2026-05-04 10:35:36 [INFO ] Subject ID: 98
+2026-05-04 10:35:36 [INFO ] Load files /root/autodl-tmp/isruc_npz/98.npz ...
+2026-05-04 10:35:36 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:35:36 [INFO ] (899, 3000, 1, 1)
+2026-05-04 10:35:36 [INFO ] W: 142
+2026-05-04 10:35:36 [INFO ] N1: 147
+2026-05-04 10:35:36 [INFO ] N2: 333
+2026-05-04 10:35:36 [INFO ] N3: 141
+2026-05-04 10:35:36 [INFO ] REM: 136
+2026-05-04 10:35:41 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_98.npz
+2026-05-04 10:35:41 [INFO ] Subject ID: 99
+2026-05-04 10:35:41 [INFO ] Load files /root/autodl-tmp/isruc_npz/99.npz ...
+2026-05-04 10:35:41 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:35:41 [INFO ] (835, 3000, 1, 1)
+2026-05-04 10:35:41 [INFO ] W: 64
+2026-05-04 10:35:41 [INFO ] N1: 20
+2026-05-04 10:35:41 [INFO ] N2: 327
+2026-05-04 10:35:41 [INFO ] N3: 229
+2026-05-04 10:35:41 [INFO ] REM: 195
+2026-05-04 10:35:46 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_99.npz
+2026-05-04 10:35:46 [INFO ] Subject ID: 100
+2026-05-04 10:35:46 [INFO ] Load files /root/autodl-tmp/isruc_npz/100.npz ...
+2026-05-04 10:35:46 [INFO ] Test set (n_night_sleeps=1)
+2026-05-04 10:35:46 [INFO ] (861, 3000, 1, 1)
+2026-05-04 10:35:46 [INFO ] W: 77
+2026-05-04 10:35:46 [INFO ] N1: 151
+2026-05-04 10:35:46 [INFO ] N2: 329
+2026-05-04 10:35:46 [INFO ] N3: 173
+2026-05-04 10:35:46 [INFO ] REM: 131
+2026-05-04 10:35:51 [INFO ] Saved outputs to out_isruc_gru_se/predict/pred_100.npz
+2026-05-04 10:35:51 [INFO ] n=8813, acc=79.2, mf1=76.5
+2026-05-04 10:35:51 [INFO ] >> Confusion Matrix
+2026-05-04 10:35:51 [INFO ] [[1208  109   11   11   23]
+ [ 198  519  154    0  178]
+ [  50  211 2630   93  186]
+ [   4    3  303 1412   86]
+ [  38   99   73    0 1214]]
+2026-05-04 10:35:51 [INFO ] ------------------------
+2026-05-04 10:35:51 [INFO ] 
+2026-05-04 10:35:51 [INFO ] 
+2026-05-04 10:35:51 [INFO ] === Overall ===
+2026-05-04 10:35:51 [INFO ] W: 20979
+2026-05-04 10:35:51 [INFO ] N1: 11513
+2026-05-04 10:35:51 [INFO ] N2: 28287
+2026-05-04 10:35:51 [INFO ] N3: 17480
+2026-05-04 10:35:51 [INFO ] REM: 11928
+2026-05-04 10:35:51 [INFO ] n=90187, acc=78.3, mf1=75.8
+2026-05-04 10:35:51 [INFO ] >> Confusion Matrix
+2026-05-04 10:35:51 [INFO ] [[18890  1260   424   111   294]
+ [ 2263  5493  2472    65  1220]
+ [  621  2186 22901  1585   994]
+ [   85    17  3197 14083    98]
+ [  335   986  1229   122  9256]]
+2026-05-04 10:35:51 [INFO ] Total: 90187
+2026-05-04 10:35:51 [INFO ] Number of samples from each class: [20979. 11513. 28287. 17480. 11928.]
+2026-05-04 10:35:51 [INFO ] Accuracy: 78.3
+2026-05-04 10:35:51 [INFO ] Macro F1-Score: 75.8
+2026-05-04 10:35:51 [INFO ] Per-class Precision: 85.1 55.3 75.8 88.2 78.0
+2026-05-04 10:35:51 [INFO ] Per-class Recall: 90.0 47.7 81.0 80.6 77.6
+2026-05-04 10:35:51 [INFO ] Per-class F1-Score: 87.5 51.2 78.3 84.2 77.8
+2026-05-04 10:35:51 [INFO ] Saved summary to out_isruc_gru_se/predict/isruc.npz
